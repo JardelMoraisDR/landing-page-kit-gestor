@@ -1,0 +1,122 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  /* body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+  } */
+  
+  form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 20px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+  }
+    
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="datetime"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="telephone"],
+  input[type="time"],
+  input[type="url"],
+  input[type="validation"],
+  textarea,
+  select {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 5px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    padding-left: 10px;
+  }
+  
+  select {
+    padding: 6px;
+    height: 32px;
+    border-radius: 2px;
+  }
+
+  fieldset {
+    margin-bottom: 5px;
+    border: none;
+  }
+  
+  legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+  }
+  
+  label{
+    width: 100%;
+    text-align: left; 
+  }
+
+  /* label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  label.light {
+    font-weight: 300;
+    display: inline;
+  } */
+  
+  .number {
+    background-color: #5fcf80;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 100%;
+  }
+  
+  #forms-title {
+    margin: 10px 0 20px 0;
+    text-align: center;
+    color: #384047;
+  }
+
+  #validation{
+    float: left;
+    width: 60%;
+  }
+
+  .observation{
+    font-size: 13px !important;
+    font-style: italic;
+    line-height: 13px !important;
+    margin-top: 8px;
+    margin-bottom: 0px !important;
+    color: #242424 !important;
+  }
+
+  @media screen and (min-width: 480px) {
+  
+    form {
+      max-width: 480px;
+    }
+  
+  }
+  
+  

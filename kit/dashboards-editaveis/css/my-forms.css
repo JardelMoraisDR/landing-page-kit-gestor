@@ -1,0 +1,43 @@
+  .forms-title {
+    margin: 10px 0 20px 0 !important;
+    text-align: center !important;
+    color: #384047 !important;
+    font-weight: 700 !important;
+  }
+
+  input{
+    background: rgba(255,255,255,0.1) !important;
+    border: none !important;
+    font-size: 16px !important;
+    height: auto !important;
+    margin: 0 !important;
+    outline: 0 !important;
+    padding: 5px !important;
+    width: 100% !important;
+    background-color: #e8eeef !important;
+    color: #333 !important;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 3%) inset !important;
+    margin-bottom: 10px !important;
+    border-radius: 40px !important;
+    padding-left: 10px !important;
+  }
+
+  input::placeholder{
+    color: #757575 !important;
+  }
+
+  .sib-form .entry__field{
+    background: transparent !important;
+    border: 0px solid #c0ccda !important;
+    border-radius: 0px !important;
+    margin: 0px !important;
+  }
+
+  .observation{
+    font-size: 13px !important;
+    font-style: italic;
+    line-height: 13px !important;
+    margin-top: 8px;
+    margin-bottom: 0px !important;
+    color: #242424 !important;
+  }
