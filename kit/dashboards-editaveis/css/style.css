@@ -1946,8 +1946,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#333440",endCo
   }
 
   .section-social-media{
-	z-index: 2; 
-	position: fixed; 
+	/* z-index: 2;  */
+	/* position: fixed;  */
 	bottom: 0px;
 	background-color: white;
 	min-height: auto;
